@@ -20,7 +20,7 @@ display: none;
 }
 .header-logo {
 padding: 5px 10px;
-height: 22vh;
+height: 20vh;
 }
 .header-contact {
 justify-content: end;
@@ -86,7 +86,7 @@ h6.text-orange {
 }
 .information {
     justify-content: space-between !important;
-    padding: 17px 5px;
+    padding: 8px 5px;
 }
 .hour .phone h6:before{
     display: none;
@@ -98,7 +98,10 @@ h6.text-orange {
     width: 30%;
 }
 .col-md-6.Service {
-    height: 150vh;
+    height: 175vh;
+}
+ol.carousel-indicators.circle-indicators {
+    bottom: 75px!important;
 }
 section#About {
     padding-right: 15px;
@@ -114,7 +117,7 @@ section#Profits {
 }
 section.Testimonials {
     background: #fbfbfb;
-    padding: 15px 0px;
+    padding: 100px 0px;
     }
 .content-testimonials {
 flex-direction: column-reverse;
@@ -136,18 +139,42 @@ i.fa.fa-youtube {
     width: 100% !important;
 }
 section.social {
-    padding: 100px 15px !important;
+    padding: 65px 15px !important;
     flex-direction: column;
     height: 140vh !important;
 
 }
+.mask-profits {
+    padding: 0px !important;
+}
+.icon-profts img {
+    width: 60% !important;
+}
+h2.text-title {
+    text-align: center;
+}
 .subscribe {
     width: 100% !important;
     padding: 15px !important;
+    margin-right: 0px!important;
 }
 .footer-menu {
     flex-direction: column;
 }
+.video-testimonils {
+width: 70%!important;
+}
+.slick-list.draggable {
+    height: 50vh!important;
+}
+#carousel-testimonials > h2 {
+    margin-bottom: 1pc !important;
+}
+section.job {
+    padding-top: 100px!important;
+    padding-bottom: 0px!important;
+
+    }
 .ul-page, .ul-contact, .img-logo {
     flex: 0 100%!important;
     max-width: 100%;
